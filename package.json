@@ -1,0 +1,14 @@
+{
+  "name": "busca_google",
+  "version": "1.0.0",
+  "description": "Buscas no google automatizadas",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "author": "Pedrohg2001",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^9.6.1"
+  }
+}
