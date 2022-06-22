@@ -1,1 +1,7 @@
-{}
+{
+    "baseUrl": "https://www.google.com.br/",
+    "projectId": "5ch1ea",
+    "viewportWidth": 1440,
+    "viewportHeight": 900
+}
+
