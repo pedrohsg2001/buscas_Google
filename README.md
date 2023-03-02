@@ -7,6 +7,6 @@ Também foi criada a pasta "pages", que possui um arquivo chamado "buscaPage.js"
 # Como rodar o projeto localmente na sua máquina:
 - Abrir o terminal
 - Acessar a pasta onde você deseja baixar o projeto
-- Executar o comando: git clone git@github.com:pedrohsg2001/buscas_Google.git
+- Executar o comando: git clone https://github.com/pedrohsg2001/buscas_Google
 - Acessar a pasta do projeto baixado
 - Executar o comando: npx cypress open e selecionar o projeto que você deseja abrir.
