@@ -1,7 +1,3 @@
-
-
-
-
 # Trabalho de conclusão de Curso | Sistemas da informação 
 O sistema se trata de uma automação de buscas que funciona da seguinte forma,
 o google é aberto e são feitas diversas buscas com palavras chaves, para cada
