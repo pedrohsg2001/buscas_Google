@@ -6,20 +6,29 @@ describe('Realizando buscas', () => {
         var termos = {
             terms1: 'notebook{enter}',
             terms2: 'geladeira{enter}',
-            terms3: 'televisão{enter}',
+            terms3: 'smart TV{enter}',
+            terms4: 'smartphone{enter}',
         }
 
         buscaPage.acessando()
         buscaPage.buscandoNotebook(termos)
+        cy.wait(5000)
         buscaPage.resultadoNotebook()
 
         buscaPage.acessando()
         buscaPage.buscandoGeladeira(termos)
+        cy.wait(5000)
         buscaPage.resultadoGeladeira()
 
         buscaPage.acessando()
-        buscaPage.buscandoTelevisão(termos)
-        buscaPage.resultadoTelevisão()
+        buscaPage.buscandoSmartTV(termos)
+        cy.wait(5000)
+        buscaPage.resultadoSmartTV()
+
+        buscaPage.acessando()
+        buscaPage.buscandoSmartphone(termos)
+        cy.wait(5000)
+        buscaPage.resultadoSmartphone()
 
     })
 

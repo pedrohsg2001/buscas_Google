@@ -9,18 +9,23 @@ class BuscaPage{
 
     buscandoNotebook(termos) {
         //buscando por notebook
-        cy.get('input[name="q"]')
-        .type(termos.terms1)     
+        cy.get('#APjFqb')
+        .type(termos.terms1)   
     }
     buscandoGeladeira(termos) {
         //buscando por geladeira
-        cy.get('input[name="q"]')
+        cy.get('#APjFqb')
         .type(termos.terms2)     
     }
-    buscandoTelevisão(termos) {
-        //buscando por geladeira
-        cy.get('input[name="q"]')
+    buscandoSmartTV(termos) {
+        //buscando por smartTV
+        cy.get('#APjFqb')
         .type(termos.terms3)     
+    }
+
+    buscandoSmartphone(termos){
+        cy.get('#APjFqb')
+        .type(termos.terms4)
     }
 
     resultadoNotebook() {
@@ -31,8 +36,12 @@ class BuscaPage{
         cy.contains('Geladeira').should('be.visible')
     }
 
-    resultadoTelevisão() {
-        cy.contains('Televisão').should('be.visible')
+    resultadoSmartTV() {
+        cy.contains('Smart TV').should('be.visible')
+    }
+
+    resultadoSmartphone() {
+        cy.contains('Smartphone').should('be.visible')
     }
 
 }
