@@ -2,7 +2,8 @@
 
 
 
-# Trabalho de conclusão de Curso | Sistema da informação | Sistema de garantia de qualidade e Assertividade | Buscas no google automatizadas
+# Trabalho de conclusão de Curso | Sistema da informação 
+#| Sistema de garantia de qualidade e Assertividade 
 O sistema se trata de uma automação de buscas que funciona da seguinte forma,
 o google é aberto e são feitas diversas buscas com palavras chaves, para cada
 pesquisa realizada é verificado se o retorno da busca tem relação e coerência com
